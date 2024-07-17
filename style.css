@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+.shrekContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 30px;
+ 
+}
+.header-img{
+    max-width: 350px;
+   
+}
+ 
+.shrekList nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.shrekList nav ul {
+    display: flex;
+    gap: 20px;
+}
+.shrekList nav ul li {
+    list-style: none;
+}
+ 
+.shrekButton {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #B9B827;
+    color:#B9B827;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+ 
+.shrekList nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color:#b9b927;
+    font-weight: 600;
+}
+ 
+.shrekButton:hover {
+    background-color:#B9B827;
+    color: white;
+}
+ 
+ 
+main{
+    display: flex;
+    align-items:center;
+   justify-content: center;
+ 
+   
+}
+.mainHeader{
+    color: #80AA35;
+    font-size: 250px;
+    flex-direction: column;
+    margin-top: 50px;
+    text-shadow: 5px 10px 5px #5e9b0aae;
+}
+ 
+.mainParagraph{
+    margin-top:30px ;
+    width: 600px;
+    font-size: 30px;    
+    color: #4b7405f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.mainImg{
+    flex: 0 0 auto;
+    position: absolute;
+    left:50px;
+    bottom: 500px;
+}
+.contentMain{
+   text-align: center;
+}
+main > section{
+    position: absolute;
+   bottom: 10px;
+   right: 150px;
+}
+.vine{
+    top: 430px;
+    left: 720px;
+    display: block;
+    margin: 0 auto
+}
